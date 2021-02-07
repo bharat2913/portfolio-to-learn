@@ -1,15 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,600&display=swap');
+
 :root {
     --primary-color: #6EE7B7;
+    --darkgrey: #6B7280;
+    --offwhite: #F3F4F6;
 }
+
+hr {
+    margin: 1.5rem 0rem;
+}
+
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
+
 /* container */
 .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+
+    padding: 0rem 1rem;
+
 }
 
 .container-center {
@@ -19,17 +30,119 @@ body {
 
 /* links */
 .link {
-   text-decoration: none;
-   padding: 0.5rem 1rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
 }
+
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
-    color: white
+    color: white;
 }
 
 .link-secondary {
-    color:  var(--primary-color);
+    color: var(--primary-color);
     border-radius: 0.5rem;
-    border: 1px solidvar(--primary-color);
+    border: 1px solid var(--primary-color);
 }
+
+/* lists */
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    /* margin: 0.5rem; */
+    padding: 0.5rem;
+}
+
+/* navigation */
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 0.5rem 0rem 0rem 0rem;
+}
+
+
+.nav-pills {
+    text-align: right;
+    padding: 1rem;
+}
+
+.navigation .link {
+    /* text-align: right; */
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+/* header */
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+
+    padding-top: 1rem;
+    text-align: center;
+    color: var(--darkgrey);
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+/* section */
+
+.section {
+    padding: 2rem;
+}
+/* .section p {
+    text-align: center;
+} */
+.section h1 {
+    text-align: center;
+    
+}
+
+.ow {
+    background-color: var(--offwhite);
+
+}
+
+/* footer */
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+
