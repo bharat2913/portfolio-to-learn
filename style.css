@@ -5,7 +5,7 @@
     --darkgrey: #6B7280;
     --offwhite: #F3F4F6;
 }
-
+ 
 hr {
     margin: 1.5rem 0rem;
 }
@@ -30,8 +30,10 @@ body {
 
 /* links */
 .link {
+
     text-decoration: none;
     padding: 0.5rem 1rem;
+    /* margin: 1rem 0rem; */
 }
 
 .link-primary {
@@ -90,6 +92,7 @@ body {
 /* header */
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
@@ -141,8 +144,19 @@ body {
     color: white;
 }
 
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
 .footer ul {
     padding-inline-start: 0px;
+}
+
+/* spaces */
+
+.padding-md {
+    padding: 2rem 0rem;
 }
 
 
