@@ -83,6 +83,7 @@ body {
 .navigation .link {
     /* text-align: right; */
     color: white;
+    padding: 0.5rem 0.36rem;
 }
 
 .navigation .link-active {
@@ -142,6 +143,7 @@ body {
 
 .footer .link {
     color: white;
+    padding: 0.5rem 0.96rem;
 }
 
 .footer .footer-header {
