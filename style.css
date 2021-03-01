@@ -28,6 +28,12 @@ body {
     margin: auto;
 }
 
+.container-border {
+    border-left: 0.3rem solid;
+    border-color: darkgray;
+    margin-bottom: 4rem;
+}
+
 /* links */
 .link {
 
@@ -158,7 +164,7 @@ body {
 /* spaces */
 
 .padding-md {
-    padding: 2rem 0rem;
+    padding: 0rem 1rem 0.8rem 1rem;
 }
 
 
